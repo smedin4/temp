@@ -2,7 +2,7 @@ openapi: 3.0.0
 info:
     title: MITRE CVE Database
     description: MITRE CVE Database to query for vulnerabilities.
-    version: "v2"
+    version: 1.0.0
 servers:
     - url: https://cveawg.mitre.org
 paths:
