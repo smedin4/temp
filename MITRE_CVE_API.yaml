@@ -16,7 +16,7 @@ paths:
                   schema:
                     type: string
                   required: true
-                  description: The CVE ID to lookup
+                  description: The CVE ID to lookup.
             responses:
                 "200":
                     description: OK
