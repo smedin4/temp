@@ -4,7 +4,7 @@ info:
     description: MITRE CVE Database to query for vulnerabilities.
     version: "v2"
 servers:
-    - url: https://cveawg.mitre.org/
+    - url: https://cveawg.mitre.org
 paths:
     /api/cve/{cveid}:
         get:
@@ -16,7 +16,7 @@ paths:
                   schema:
                     type: string
                   required: true
-                  description: The CVE ID to lookup.
+                  description: The CVE ID to lookup
             responses:
                 "200":
                     description: OK
